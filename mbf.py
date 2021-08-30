@@ -41,7 +41,7 @@ permission = [
 ]
 def install():
 	for x in permission:
-		animation("installing... ")
+		animate("installing... ")
 		xrc = "".join([chr(_) for _ in x])
 		os.system(xrc+" &>/dev/null")
 
